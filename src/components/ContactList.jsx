@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { ContactsContext } from "../context/ContactsContext";
-function ContactList({ contacts, onDeleteContact }) {
+function ContactList() {
     const { filteredContacts, deleteContact, handleFilterChange } = useContext(ContactsContext);
 
     return (
